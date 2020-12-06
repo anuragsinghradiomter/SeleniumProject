@@ -28,8 +28,8 @@ public class LocateElementByIDNameClass {
 		Thread.sleep(1000);
 		weightTextbox.clear();
 		weightTextbox.sendKeys("115");
-		//WebElement calculateButton = driver.findElement(By.xpath("//*[@id=\"google_osd_static_frame_4864787471522\"]"));
-		//calculateButton.click();
+		WebElement calculateButton = driver.findElement(By.xpath("//*[@id='content']/div[5]/table[4]/tbody/tr[3]/td[2]/input[2]"));
+		calculateButton.click();  
 		
 		//Task 2
 		System.out.println("attribute value of type of ageTextbox = " + ageTextbox.getAttribute("type"));
